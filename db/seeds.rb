@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Tweet.destroy_all
+
+tweets = Tweet.create([
+    {handle: "ahhlexandra", content: "I love GA!"},
+    {handle: "mattttt", content: "Developers rock!"}
+])
